@@ -11,8 +11,11 @@ class admot {
 	private:
 		// Private functions and variables here
 	public:
-		admot();
-		void begin();
+	admot();
+	void mot1(int dir, int pwr);
+	void mot2(int dir, int pwr);
+	void both(int dir1, int dir2, int pwr);
+	void stop;
 };
 
 #endif
