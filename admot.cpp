@@ -20,13 +20,13 @@ void Admot::mot2(int dir, int pwr)
 	analogWrite(11, pwr);
 }
 
-/*void Admot:both(int dir1, int dir2, int pwr)
+void Admot::both(int dir1, int dir2, int pwr)
 {
 	digitalWrite(12, dir1);
-	analogWrite(3, pwr1);
 	digitalWrite(13, dir2);
+	analogWrite(3, pwr);
 	analogWrite(11, pwr);
-}*/
+}
 
 void stop()
 {
