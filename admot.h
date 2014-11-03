@@ -7,15 +7,15 @@
 # include <WProgram.h>
 #endif
 
-class admot {
+class Admot {
 	private:
 		// Private functions and variables here
 	public:
-	admot();
+	Admot();
 	void mot1(int dir, int pwr);
 	void mot2(int dir, int pwr);
-	void both(int dir1, int dir2, int pwr);
-	void stop;
+	//void both(int dir1, int dir2, int pwr);
+	void stop();
 };
 
 #endif
