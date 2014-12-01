@@ -28,7 +28,7 @@ void Admot::both(int dir1, int dir2, int pwr)
 	analogWrite(11, pwr);
 }
 
-void stop()
+void Admot::stop()
 {
 	analogWrite(3, 0);
 	analogWrite(11, 0);
