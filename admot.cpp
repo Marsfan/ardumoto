@@ -25,7 +25,7 @@ void Admot::both(int dir1, int dir2, int pwr1, int pwr2)
 	digitalWrite(12, dir1);
 	digitalWrite(13, dir2);
 	analogWrite(3, pwr1);
-        if(pwr2 == null){
+        if(pwr2 == -1){
                 analogWrite(11, pwr1);
        }else{  
                 analogWrite(11, pwr2);
