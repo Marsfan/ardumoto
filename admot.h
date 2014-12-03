@@ -14,7 +14,7 @@ class Admot {
 	Admot();
 	void mot1(int dir, int pwr);
 	void mot2(int dir, int pwr);
-	void both(int dir1, int dir2, int pwr);
+	void both(int dir1, int pwr1, int dir2 = -1, int pwr2 = -1);
 	void stop();
 };
 
